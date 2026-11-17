@@ -1,0 +1,72 @@
+# MATLAB and Simulink specific
+slprj/
+_jitprj/
+_sfprj/
+*.matlab.settings
+simulinkopts.json
+*.matlab.workspace
+matlabprj/
+
+# Simulink data logging files
+simlog_*
+
+# Generated profile data (if not included separately)
+# microgrid_profiles_24h.mat
+
+# Workspace and temporary files (no blanket *.mat/.csv/.slx/.docx/.pdf ignores)
+*.mlappinstall
+~*
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.bak
+*~
+
+# Simulink build artifacts
+*_grading*
+
+# Runtime dependencies (platform-specific)
+*.p
+*.p.integ
+
+# Simulink cache files (generated, not source)
+*.slxc
+
+# MATLAB cache/autosave files
+autosave_*.m
+
+# Office temporary files
+*.tmp
+*.asd
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated MPC dispatch result CSV (not the comparison benchmark)
+06_Energy_Management/MPC/results/ml_forecast_mpc_dispatch.csv
+
+# Unselected experiment CSVs
+07_Experiments/comparisons/**/*.csv
+07_Experiments/EMS_MPC_Comparison/**/*.csv
+07_Experiments/EMS_MPC_Comparison_Equal_SOC/**/*.csv
+
+# Custom startup variants
+startup.m.custom
+
+# Simulink data logging files
+simlog_*
+
+# Generated profile data (if not included separately)
+# microgrid_profiles_24h.mat
