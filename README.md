@@ -6,6 +6,11 @@
 **MATLAB Version:** 2023b or later with Optimization Toolbox, Deep Learning Toolbox, and Statistics & Machine Learning Toolbox  
 
 ---
+## MATLAB Dashboard Demonstration
+
+Watch the recorded demonstration of the MATLAB-based AI-Assisted Microgrid Energy Management System.
+
+[▶ Watch the Dashboard Demonstration](https://github.com/Rajubahardar/AI-Assisted-Microgrid-EMS/releases/tag/v1.0.1)
 
 ## 1. Project Overview
 
